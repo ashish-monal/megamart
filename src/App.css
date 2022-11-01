@@ -24,6 +24,7 @@
   font-weight: bold;
   text-transform: capitalize;
   justify-content: flex-end;
+  margin-bottom: 0.5rem;
 }
 .sortbyprice button {
   margin-left: 10px;
