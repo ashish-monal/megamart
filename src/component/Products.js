@@ -27,7 +27,6 @@ export default function Products() {
     };
 
     const handleSort = (sortBy) => {
-        console.log("Set Sort price", sortBy);
         setSortPrice(sortBy)
         if (sortPrice === "low-to-high") {
             setProductData(productsData.sort((a, b) => b.price - a.price));
@@ -35,7 +34,7 @@ export default function Products() {
             setProductData(productsData.sort((a, b) => a.price - b.price));
         }
     };
-    console.log("sorted", productsData);
+
 
     useEffect(() => {
         loadPosts();
@@ -99,7 +98,7 @@ export default function Products() {
                         setProductData={setProductData}
                         handleSort={handleSort}
                     />
-                    {console.log("product Data", productsData)}
+
                     {loading ? (
                         <h4>Loading....</h4>
                     ) : (
