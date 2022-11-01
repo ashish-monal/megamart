@@ -29,3 +29,32 @@
 .sortbyprice button {
   margin-left: 10px;
 }
+.footer {
+  text-align: center;
+
+  background: var(--mainWhite);
+
+  padding: 1rem;
+
+  margin-top: 1.5rem;
+
+  font-size: larger;
+
+  font-weight: bold;
+
+  border-top: 2px solid var(--primaryColor);
+
+  box-shadow: var(--lightShadow) inset;
+}
+
+.foot-center {
+  margin-top: 1rem;
+}
+
+.about-section {
+  width: var(--smallWidth);
+
+  max-width: var(--maxWidth);
+
+  margin: 0 auto;
+}
