@@ -8,7 +8,6 @@ export default function Products() {
     const [productsData, setProductData] = useState([]);
     const [loading, setLoading] = useState(false);
     const [searchTitle, setSearchTitle] = useState("");
-
     const [currentCategory, setCurrentCategory] = useState("");
     const [allProduct, setAllProducts] = useState([]);
 
